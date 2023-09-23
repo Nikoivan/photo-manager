@@ -1,0 +1,23 @@
+.manager__form {
+  position: absolute;
+  z-index: 1;
+}
+
+.form__input {
+  width: 450px;
+  height: 200px;
+}
+
+.manager__decorator {
+  z-index: 2;
+  position: relative;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 80px 150px;
+  background-color: #242424;
+  pointer-events: none;
+}
+
+.decorator__text {
+  font-size: 24px;
+}
